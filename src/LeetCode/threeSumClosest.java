@@ -61,7 +61,7 @@ public class threeSumClosest {
         int temp1 = nums[low]+nums[mid]+nums[high];
         delta = temp1-target;
         int flag = 0;
-        if(delta > 0 ) flag = 1;
+        if(delta > 0 ) flag = 1; //mid的移动方向是一开始就固定好的
 		while(mid!=low && mid!=high)
         {
         	temp1 = nums[low]+nums[mid]+nums[high];
