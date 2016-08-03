@@ -63,7 +63,7 @@ public class solveNQueens {
 									//不能只在判断位置不符合的情况下执行，因为如果当前位置满足后，在递归后回来则这条语句就不会执行
 									//这样就出错。因为位置坐标不止两个
 		}
-		if(temp.size()>0) temp.remove(temp.size()-1);//循环过后不论有没有解都要去除
+		if(temp.size()>0) temp.remove(temp.size()-1);//循环过后不论有没有解都
 		if(loc.size()>0)
 		   loc.remove(loc.size()-1);
 		return ans;

@@ -19,7 +19,7 @@ public class permute {
 	{
 		if(temp.size() == length)
 		{
-			ans.add(new ArrayList<Integer>(temp));
+			ans.add(new ArrayList<Integer>(temp)); //这样是个新的temp加进去。否则当temp改变时，ans中的元素也会改变
 			return ans;
 		}
 		int i = 0;

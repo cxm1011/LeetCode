@@ -1,6 +1,6 @@
 package LeetCode;
 
-import java.util.Stack;
+import java.util.*;
 
 public class isValid {
 	public static void main(String args[])

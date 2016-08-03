@@ -15,8 +15,6 @@ public class removeNthFromEnd {
 	public static void main(String args[])
 	{
 		Scanner in = new Scanner(System.in);
-		
-		
 		ListNode s = new ListNode(in.nextInt());
 		s.next = null;
 		ListNode temp=s;

@@ -89,8 +89,6 @@ public class addTwoNumbers
 			index = index*10;
 			sum = sum1+sum2+sum;
 		}
-		System.out.println("INDEX=" + index);
-		System.out.println("sum=" + sum);
 		ListNode A=null;
 		int a = (int) (sum/index);
 		if(a == 0) index = index/10;

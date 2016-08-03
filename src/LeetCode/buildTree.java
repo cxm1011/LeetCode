@@ -25,7 +25,7 @@ public class buildTree {
         HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
         for(int i=0;i<lenin;i++)
         	map.put(inorder[i], i);
-        
+        return head(preorder,0,lenpre-1,inorder,0,lenin,map);
     }
 	public static TreeNode head(int[] pre,int pi,int pj,int[] in,int i,int j,
 								HashMap<Integer,Integer> map)
