@@ -9,10 +9,16 @@ public class lengthOfLastWord {
 		Scanner in = new Scanner(System.in);
 		while(in.hasNext())
 		{
-			String s = in.nextLine();
+			double num = in.nextDouble();
+			int first = (int)(num*10%10);
+			if(first >=5)
+			{
+				System.out.println((int)(num+1));
+			}
+			else {
+				System.out.println((int)(num));
+			}
 			
-			String[] all = s.split(" ");
-			System.out.println(all[all.length-1].length());
 		}
 	}
 }
