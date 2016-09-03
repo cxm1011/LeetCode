@@ -4,9 +4,9 @@ public class rob2 {
 	public static void main(String args[])
 	{
 		int[] num= {20,90,80,80,100};
-		System.out.println(rob(num));
+		System.out.println(rob2(num));
 	}
-	public static int rob(int[] nums) 
+	public static int rob2(int[] nums) 
 	{
 		int len = nums.length;
 		if(len==0 || nums == null) return 0;
